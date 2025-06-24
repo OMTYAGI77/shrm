@@ -3,11 +3,8 @@ package com.example.shrmp3.service;
 import java.util.List;
 
 import com.example.shrmp3.bo.OrganizationMember;
-<<<<<<< HEAD
-=======
 import com.example.shrmp3.dto.LoginRequest;
 import com.example.shrmp3.dto.LoginResponse;
->>>>>>> 3eef8fa (initial commit)
 
 //public interface OrganizationMemberService {
 //    OrganizationMember addMember(OrganizationMember member);
@@ -26,11 +23,7 @@ public interface OrganizationMemberService {
     void deleteMember(String id);
     OrganizationMember login(String username, String password);
     OrganizationMember getByEmpId(String empId);
-<<<<<<< HEAD
-    OrganizationMember loginByEmpId(String empId, String password);
-=======
 //    OrganizationMember loginByEmpId(String empId, String password);
 	LoginResponse register(OrganizationMember employee);
 	LoginResponse login(LoginRequest request);
->>>>>>> 3eef8fa (initial commit)
 }

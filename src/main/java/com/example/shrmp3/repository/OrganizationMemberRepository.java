@@ -10,8 +10,5 @@ public interface OrganizationMemberRepository extends MongoRepository<Organizati
     Optional<OrganizationMember> findByUsernameAndPassword(String username, String password);
     Optional<OrganizationMember> findByEmpId(String empId);
     Optional<OrganizationMember> findByEmpIdAndPassword(String empId, String password);
-<<<<<<< HEAD
-=======
     
->>>>>>> 3eef8fa (initial commit)
 }
